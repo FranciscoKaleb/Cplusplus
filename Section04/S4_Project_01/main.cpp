@@ -8,24 +8,13 @@ using std::endl;
 int main() 
 {
     
-    // C ++ approach of initializing values
-    int num1 {0};
-    float num2 {0};
-    double num3 {0};
-    
-    cout << "enter an integer: \n";
-    cin >> num1;
-    cout << "enter a float: \n";
-    cin >> num2;
-    cout << "enter a double: \n";
-    cin >> num3;
-    
-    cout << "integer: " << num1 << endl;
-    cout << "float: " << num2 << endl;
-    cout << "double: " << num3 << endl;
-    
-    
-    
-    //return 0;
+    int room_width {0};
+    int room_length {0};    
+    cout << "Enter the width of the room in ft: \n";
+    cin >> room_width;
+    cout << "Enter the length of the room in ft: \n";
+    cin >> room_length;
+    cout << "The area of the room is " << room_width*room_length;
+    //return 0; d
 }   
 
