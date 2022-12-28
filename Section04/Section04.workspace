@@ -2,15 +2,27 @@
 <CodeLite_Workspace Name="Section04" Database="" Version="10000" SWTLW="Yes">
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
-  <Project Name="S4_Project_01" Path="S4_Project_01/S4_Project_01.project" Active="Yes"/>
+  <Project Name="01_GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="02_InitializingVariables" Path="02_InitializingVariables/02_InitializingVariables.project" Active="No"/>
+  <Project Name="03_PrimitiveDataTypes" Path="03_PrimitiveDataTypes/03_PrimitiveDataTypes.project" Active="No"/>
+  <Project Name="04_SizeofOperator" Path="04_SizeofOperator/04_SizeofOperator.project" Active="No"/>
+  <Project Name="05_Constants" Path="05_Constants/05_Constants.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="S4_Project_01" ConfigName="Debug"/>
+      <Project Name="01_GlobalVariables" ConfigName="Debug"/>
+      <Project Name="02_InitializingVariables" ConfigName="Debug"/>
+      <Project Name="03_PrimitiveDataTypes" ConfigName="Debug"/>
+      <Project Name="04_SizeofOperator" ConfigName="Debug"/>
+      <Project Name="05_Constants" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="S4_Project_01" ConfigName="Release"/>
+      <Project Name="01_GlobalVariables" ConfigName="Release"/>
+      <Project Name="02_InitializingVariables" ConfigName="Release"/>
+      <Project Name="03_PrimitiveDataTypes" ConfigName="Release"/>
+      <Project Name="04_SizeofOperator" ConfigName="Release"/>
+      <Project Name="05_Constants" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

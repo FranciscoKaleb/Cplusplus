@@ -1,1 +1,5 @@
-C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\S4_Project_01\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\05_Constants\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\04_SizeofOperator\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\03_PrimitiveDataTypes\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\02_InitializingVariables\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\GlobalVariables\main.cpp
