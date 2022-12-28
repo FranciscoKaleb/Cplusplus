@@ -8,9 +8,10 @@ using std::endl;
 int main() 
 {
     
-    int num1;
-    float num2;
-    double num3;
+    // C ++ approach of initializing values
+    int num1 {0};
+    float num2 {0};
+    double num3 {0};
     
     cout << "enter an integer: \n";
     cin >> num1;
