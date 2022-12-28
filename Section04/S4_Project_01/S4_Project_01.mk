@@ -6,15 +6,15 @@
 ProjectName            :=S4_Project_01
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Section04
-ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Section04/S4_Project_01
+WorkspacePath          :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04
+ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/S4_Project_01
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/S4_Project_01
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jyuvi
-Date                   :=27/12/2022
+Date                   :=28/12/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Section04/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Section04/S4_Project_01/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/S4_Project_01/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

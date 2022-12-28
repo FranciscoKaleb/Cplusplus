@@ -1,16 +1,30 @@
 #include <iostream> //responsible for cout and cin
 
+//using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main() 
 {
     
-    int favorite_number;
+    int num1;
+    float num2;
+    double num3;
     
-    std::cout << "Enter your favorite number between 1 and 100 \n";
-    std::cin >> favorite_number;
-    std::cout << "Amazing thats my favorite number too \n";
-    std::cout << "no really " << favorite_number << " is my favorite number!" << std::endl;
+    cout << "enter an integer: \n";
+    cin >> num1;
+    cout << "enter a float: \n";
+    cin >> num2;
+    cout << "enter a double: \n";
+    cin >> num3;
+    
+    cout << "integer: " << num1 << endl;
+    cout << "float: " << num2 << endl;
+    cout << "double: " << num3 << endl;
+    
+    
     
     //return 0;
-}
+}   
 
