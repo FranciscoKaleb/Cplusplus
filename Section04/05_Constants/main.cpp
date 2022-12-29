@@ -1,4 +1,4 @@
-//
+/*
 
 #include <iostream>
 #include <climits>
@@ -32,5 +32,44 @@ int main(){
     cout << endl;
     
     //refactoring code modifying code without chaing behavior
+    
+} */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number_of_small_rooms {0};
+    int number_of_large_room {0};
+    int total {0};
+    int total_estimate {0};
+    int const price_of_small_room {25};
+    int const price_of_large_room {35};
+    float const tax_multiplier {0.06};
+    int const days_valid {30};
+    
+    cout << "Hello, welcome to Kaleb's cleaning service" << endl;
+    cout << "This is our pricing:" << endl;
+    cout << "Small room: $" << price_of_small_room << endl;
+    cout << "Large room: $" << price_of_large_room << endl;
+    cout << "How many small rooms would you like to get cleaned?" << endl;
+    cin >> number_of_small_rooms;
+    cout << "How many large rooms would you like to get cleaned?" << endl;
+    cin >> number_of_large_room;
+    cout << "Number of small room: " << number_of_small_rooms << endl;
+    cout << "Number of large room: " << number_of_large_room << endl;
+    
+    total = (number_of_small_rooms*price_of_small_room)+(number_of_large_room*price_of_large_room);
+    
+    cout << "Total: $" << total << endl;
+    cout << "Tax: 6%" << endl;
+    
+    total_estimate = total + total*tax_multiplier;
+    
+    cout << "Total estimate: $" 
+    << total_estimate << endl;
+    cout << "This estimate is valid for " << days_valid << endl;
     
 }
