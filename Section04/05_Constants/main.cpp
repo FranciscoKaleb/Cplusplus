@@ -43,11 +43,11 @@ int main()
 {
     int number_of_small_rooms {0};
     int number_of_large_room {0};
-    int total {0};
-    int total_estimate {0};
-    int const price_of_small_room {25};
-    int const price_of_large_room {35};
-    float const tax_multiplier {0.06};
+    double total {0};
+    double total_estimate {0};
+    double const price_of_small_room {25};
+    double const price_of_large_room {35};
+    double const tax_multiplier {0.06};
     int const days_valid {30};
     
     cout << "Hello, welcome to Kaleb's cleaning service" << endl;
