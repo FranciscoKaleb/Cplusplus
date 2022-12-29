@@ -1,6 +1,8 @@
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\06_Arrays\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\09_MixedTypeExpressions\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\05_Constants\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\04_SizeofOperator\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\08_Operators\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\03_PrimitiveDataTypes\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\07_Vectors\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Section04\02_InitializingVariables\main.cpp

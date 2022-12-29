@@ -8,7 +8,9 @@
   <Project Name="04_SizeofOperator" Path="04_SizeofOperator/04_SizeofOperator.project" Active="No"/>
   <Project Name="05_Constants" Path="05_Constants/05_Constants.project" Active="No"/>
   <Project Name="06_Arrays" Path="06_Arrays/06_Arrays.project" Active="No"/>
-  <Project Name="07_Vectors" Path="07_Vectors/07_Vectors.project" Active="Yes"/>
+  <Project Name="07_Vectors" Path="07_Vectors/07_Vectors.project" Active="No"/>
+  <Project Name="08_Operators" Path="08_Operators/08_Operators.project" Active="No"/>
+  <Project Name="09_MixedTypeExpressions" Path="09_MixedTypeExpressions/09_MixedTypeExpressions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +21,8 @@
       <Project Name="05_Constants" ConfigName="Debug"/>
       <Project Name="06_Arrays" ConfigName="Debug"/>
       <Project Name="07_Vectors" ConfigName="Debug"/>
+      <Project Name="08_Operators" ConfigName="Debug"/>
+      <Project Name="09_MixedTypeExpressions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -29,6 +33,8 @@
       <Project Name="05_Constants" ConfigName="Release"/>
       <Project Name="06_Arrays" ConfigName="Release"/>
       <Project Name="07_Vectors" ConfigName="Release"/>
+      <Project Name="08_Operators" ConfigName="Release"/>
+      <Project Name="09_MixedTypeExpressions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

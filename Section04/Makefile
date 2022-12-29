@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 07_Vectors - Debug ]----------"
-	@cd "07_Vectors" && "$(MAKE)" -f  "07_Vectors.mk"
+	@echo "----------Building project:[ 09_MixedTypeExpressions - Debug ]----------"
+	@cd "09_MixedTypeExpressions" && "$(MAKE)" -f  "09_MixedTypeExpressions.mk"
 clean:
-	@echo "----------Cleaning project:[ 07_Vectors - Debug ]----------"
-	@cd "07_Vectors" && "$(MAKE)" -f  "07_Vectors.mk" clean
+	@echo "----------Cleaning project:[ 09_MixedTypeExpressions - Debug ]----------"
+	@cd "09_MixedTypeExpressions" && "$(MAKE)" -f  "09_MixedTypeExpressions.mk" clean
