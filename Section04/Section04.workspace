@@ -10,7 +10,10 @@
   <Project Name="06_Arrays" Path="06_Arrays/06_Arrays.project" Active="No"/>
   <Project Name="07_Vectors" Path="07_Vectors/07_Vectors.project" Active="No"/>
   <Project Name="08_Operators" Path="08_Operators/08_Operators.project" Active="No"/>
-  <Project Name="09_MixedTypeExpressions" Path="09_MixedTypeExpressions/09_MixedTypeExpressions.project" Active="Yes"/>
+  <Project Name="09_MixedTypeExpressions" Path="09_MixedTypeExpressions/09_MixedTypeExpressions.project" Active="No"/>
+  <Project Name="10_EqualityOperator" Path="10_EqualityOperator/10_EqualityOperator.project" Active="No"/>
+  <Project Name="11_RelationalOperator" Path="11_RelationalOperator/11_RelationalOperator.project" Active="No"/>
+  <Project Name="12_LogicalOperators" Path="12_LogicalOperators/12_LogicalOperators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -23,6 +26,9 @@
       <Project Name="07_Vectors" ConfigName="Debug"/>
       <Project Name="08_Operators" ConfigName="Debug"/>
       <Project Name="09_MixedTypeExpressions" ConfigName="Debug"/>
+      <Project Name="10_EqualityOperator" ConfigName="Debug"/>
+      <Project Name="11_RelationalOperator" ConfigName="Debug"/>
+      <Project Name="12_LogicalOperators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -35,6 +41,9 @@
       <Project Name="07_Vectors" ConfigName="Release"/>
       <Project Name="08_Operators" ConfigName="Release"/>
       <Project Name="09_MixedTypeExpressions" ConfigName="Release"/>
+      <Project Name="10_EqualityOperator" ConfigName="Release"/>
+      <Project Name="11_RelationalOperator" ConfigName="Release"/>
+      <Project Name="12_LogicalOperators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
