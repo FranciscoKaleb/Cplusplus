@@ -13,7 +13,11 @@
   <Project Name="09_MixedTypeExpressions" Path="09_MixedTypeExpressions/09_MixedTypeExpressions.project" Active="No"/>
   <Project Name="10_EqualityOperator" Path="10_EqualityOperator/10_EqualityOperator.project" Active="No"/>
   <Project Name="11_RelationalOperator" Path="11_RelationalOperator/11_RelationalOperator.project" Active="No"/>
-  <Project Name="12_LogicalOperators" Path="12_LogicalOperators/12_LogicalOperators.project" Active="Yes"/>
+  <Project Name="12_LogicalOperators" Path="12_LogicalOperators/12_LogicalOperators.project" Active="No"/>
+  <Project Name="13_IfStatement" Path="13_IfStatement/13_IfStatement.project" Active="No"/>
+  <Project Name="14_SwtichStatement" Path="14_SwtichStatement/14_SwtichStatement.project" Active="No"/>
+  <Project Name="15_ConditionalOperator" Path="15_ConditionalOperator/15_ConditionalOperator.project" Active="No"/>
+  <Project Name="16_Forloop" Path="16_Forloop/16_Forloop.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -29,6 +33,10 @@
       <Project Name="10_EqualityOperator" ConfigName="Debug"/>
       <Project Name="11_RelationalOperator" ConfigName="Debug"/>
       <Project Name="12_LogicalOperators" ConfigName="Debug"/>
+      <Project Name="13_IfStatement" ConfigName="Debug"/>
+      <Project Name="14_SwtichStatement" ConfigName="Debug"/>
+      <Project Name="15_ConditionalOperator" ConfigName="Debug"/>
+      <Project Name="16_Forloop" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -44,6 +52,10 @@
       <Project Name="10_EqualityOperator" ConfigName="Release"/>
       <Project Name="11_RelationalOperator" ConfigName="Release"/>
       <Project Name="12_LogicalOperators" ConfigName="Release"/>
+      <Project Name="13_IfStatement" ConfigName="Release"/>
+      <Project Name="14_SwtichStatement" ConfigName="Release"/>
+      <Project Name="15_ConditionalOperator" ConfigName="Release"/>
+      <Project Name="16_Forloop" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
