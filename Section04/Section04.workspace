@@ -18,6 +18,8 @@
   <Project Name="14_SwtichStatement" Path="14_SwtichStatement/14_SwtichStatement.project" Active="No"/>
   <Project Name="15_ConditionalOperator" Path="15_ConditionalOperator/15_ConditionalOperator.project" Active="No"/>
   <Project Name="16_Forloop" Path="16_Forloop/16_Forloop.project" Active="Yes"/>
+  <Project Name="17_WhileLoop" Path="17_WhileLoop/17_WhileLoop.project" Active="No"/>
+  <Project Name="18_ContinueBreak" Path="18_ContinueBreak/18_ContinueBreak.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -37,6 +39,8 @@
       <Project Name="14_SwtichStatement" ConfigName="Debug"/>
       <Project Name="15_ConditionalOperator" ConfigName="Debug"/>
       <Project Name="16_Forloop" ConfigName="Debug"/>
+      <Project Name="17_WhileLoop" ConfigName="Debug"/>
+      <Project Name="18_ContinueBreak" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -56,6 +60,8 @@
       <Project Name="14_SwtichStatement" ConfigName="Release"/>
       <Project Name="15_ConditionalOperator" ConfigName="Release"/>
       <Project Name="16_Forloop" ConfigName="Release"/>
+      <Project Name="17_WhileLoop" ConfigName="Release"/>
+      <Project Name="18_ContinueBreak" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
