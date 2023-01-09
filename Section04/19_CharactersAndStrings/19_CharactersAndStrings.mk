@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=13_IfStatement
+ProjectName            :=19_CharactersAndStrings
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04
-ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/13_IfStatement
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/13_IfStatement
+ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/19_CharactersAndStrings
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/19_CharactersAndStrings
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/13_IfStatement/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/19_CharactersAndStrings/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

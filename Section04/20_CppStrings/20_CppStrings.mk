@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=13_IfStatement
+ProjectName            :=20_CppStrings
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04
-ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/13_IfStatement
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/13_IfStatement
+ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/20_CppStrings
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/20_CppStrings
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jyuvi
-Date                   :=05/01/2023
+Date                   :=09/01/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/13_IfStatement/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/20_CppStrings/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

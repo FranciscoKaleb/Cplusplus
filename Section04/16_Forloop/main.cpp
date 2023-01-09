@@ -165,7 +165,7 @@ public:
                 
             }
     }
-    void Example_10()
+    void Example_10() // cool example. . . histogram
     {
         int vector_size {0};
         vector<int> vec {};
@@ -240,7 +240,7 @@ public:
         }
         cout << "sum:" << sum << endl;
     }
-    void Challenge_3()
+    void Challenge_3() // cool challenge
     {
         char choice {};
         vector<int> list{1, -200, 44, -6, 55, -104, 4, 9, -17};
