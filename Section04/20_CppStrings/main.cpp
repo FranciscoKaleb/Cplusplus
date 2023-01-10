@@ -21,6 +21,11 @@ public:
             i++;
         }
     }
+    void Print_delay(char words)
+    {
+            cout << words;
+            this_thread::sleep_for(chrono::milliseconds(10));
+    }
     void Example_1() //initialization
     {
         string s0;
@@ -145,8 +150,8 @@ public:
     }
     void Challenge() // Encryption and decryption my solution
     {
-        string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
-        string key {"ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba"};
+        string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ,."};
+        string key {"ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba()%"};
         string input {""};
         string encrypted_string {""};
         string decrypted_string {""};
@@ -188,23 +193,151 @@ public:
         cout << "decrypted back to " << decrypted_string << endl;
         
     }
-    void Challenge2() // instructors solution
+    void Challenge_2()
     {
-        string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
-        string key {"ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba"};
+        string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ,."};
+        string key[] 
+        {
+            "q26ze","r2y5b","3x24y","423w4","32v15","6hu20","7719t","01s8i","11r17","4b16q",
+            "1s9p5","h5o14","1k6nl","1kkm2","33l11","16m0k","0j1z9","i0z48","0z97h","7i0g6",
+            "f0775","04r4e","0cfd3","c0cc2","04g1b","0670a","72Z!f","442Yd","3611X","021Ww",
+            "1111V","5vio)","6iTzz","223kz","1241r","QQQ9i","Oz09w","Pdi8a","ai839","n6yds",
+            "m00fe","kold3","lov3T","JaK3l","H!tmR","Irle8","Az5tu","H1c90","Bl6ii","Go0fg",
+            "C69zp","Fa4gi","D7mmi","Elk00","Zo0rD","L4mbB","K00ii","Cl8dm"
+        };
         string input {""};
         string encrypted_string {""};
         string decrypted_string {""};
         
-        cout << "Enter your input to be encrypted" << endl;
+        cout << "Enter a string " << endl;
+        getline(cin, input);
+        //encrypted_string = input;
+
         
-        for(char c: input)
+        for(size_t i = 0 ; i < input.length(); i++)
         {
-            size_t position = alphabet.find(c);
+            for(size_t j = 0; j < alphabet.length(); j++)
+            {
+                if(input[i] == alphabet[j])
+                {
+                   //encrypted_string[i] = key[j];
+                   for(int k = 0; k < 5; k++)
+                   {
+                       encrypted_string.push_back(key[j][k]);
+                   }
+                   
+                   break; // used to stop iterating after the matched letter is found
+                }
+            } 
+        }
+        cout << input << " is encrypted to " << encrypted_string << endl;
+        
+        /*for()
+        {
             
         }
+        cout << input << " is decrypted to " << decrypted_string << endl;*/
     }
+    void Challenge_3() //pyramiding
+    {
+        string input {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 
+        
+        
+        //getline(cin, input);
+        for(int i = 0; i < input.length(); i++) 
+        {
+            
+            for(int j = 0; j <= i; j++) 
+            {
+                
+                    Print_delay(input[j]);  
+                   
+            }
+            
+            cout << endl;
+            
+        }
+        
+        for(int i = 0; i < input.length(); i++) 
+        {
+            
+            for(int j = 0; j <= i; j++) 
+            {
+                
+                Print_delay(input[j]); 
+                
+                if(j == i)
+                {
+                    
+                    for(int k = j; k >= 0; k--)
+                    {
+                        
+                        if(k == 0)
+                        {
+                            break;
+                        }
+                        Print_delay(input[k-1]); 
+                        
+                    }
+                    
+                }
+                
+            }
+            
+            cout << endl;
+        }
+        
+        int empty_space = input.length()-1;
+        
+        for(int i = 0; i < input.length(); i++) 
+        {
+            
+            for(int l = 0; l <= empty_space; l++)
+                {
+                    
+                   cout << " "; 
+                   
+                }
+                
+                empty_space = empty_space - 1;   
+                
+            for(int j = 0; j <= i; j++) 
+            {
+                
+                Print_delay(input[j]); 
+                
+                if(j == i)
+                {
+                    
+                    for(int k = j; k >= 0; k--)
+                    {
+                        
+                        if(k == 0)
+                        {
+                            break;
+                        }
+                        Print_delay(input[k-1]); 
+                    }
+                    
+                }
+                
+            }
+            
+            cout << endl;
+        }
+        
+        
+    for (int i = 0; i < input.length(); ++i) //GPT version
+        {
+            std::cout << std::string(input.length() - i - 1, ' ');
+            std::cout << input.substr(0, i + 1);
+            std::cout << input.substr(0, i);
+            std::cout << '\n';
+        }
+        
+
+    }
 };
 
 int main()
@@ -223,7 +356,7 @@ int main()
     //front() access first chartacter
     //at()
     Examples obj;
-    obj.Challenge();
+    obj.Challenge_3();
     
     
 }
