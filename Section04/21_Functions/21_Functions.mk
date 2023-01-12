@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=07_Vectors
+ProjectName            :=21_Functions
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04
-ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/07_Vectors
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/07_Vectors
+ProjectPath            :=C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/21_Functions
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/21_Functions
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -64,7 +64,7 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/TemperatureConverter.cpp$(ObjectSuffix) $(IntermediateDirectory)/AreaSolver.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -95,8 +95,24 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/TemperatureConverter.cpp$(ObjectSuffix): TemperatureConverter.cpp $(IntermediateDirectory)/TemperatureConverter.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/21_Functions/TemperatureConverter.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/TemperatureConverter.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/TemperatureConverter.cpp$(DependSuffix): TemperatureConverter.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/TemperatureConverter.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/TemperatureConverter.cpp$(DependSuffix) -MM TemperatureConverter.cpp
+
+$(IntermediateDirectory)/TemperatureConverter.cpp$(PreprocessSuffix): TemperatureConverter.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/TemperatureConverter.cpp$(PreprocessSuffix) TemperatureConverter.cpp
+
+$(IntermediateDirectory)/AreaSolver.cpp$(ObjectSuffix): AreaSolver.cpp $(IntermediateDirectory)/AreaSolver.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/21_Functions/AreaSolver.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/AreaSolver.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/AreaSolver.cpp$(DependSuffix): AreaSolver.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/AreaSolver.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/AreaSolver.cpp$(DependSuffix) -MM AreaSolver.cpp
+
+$(IntermediateDirectory)/AreaSolver.cpp$(PreprocessSuffix): AreaSolver.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/AreaSolver.cpp$(PreprocessSuffix) AreaSolver.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/07_Vectors/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jyuvi/OneDrive/Desktop/C++/Cplusplus/Cplusplus/Section04/21_Functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 

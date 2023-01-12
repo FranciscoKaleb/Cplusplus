@@ -1,0 +1,1 @@
+../build-Debug/21_Functions/TemperatureConverter.cpp.o ../build-Debug/21_Functions/AreaSolver.cpp.o ../build-Debug/21_Functions/main.cpp.o   

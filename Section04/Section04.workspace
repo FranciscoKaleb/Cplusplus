@@ -21,7 +21,9 @@
   <Project Name="17_WhileLoop" Path="17_WhileLoop/17_WhileLoop.project" Active="No"/>
   <Project Name="18_ContinueBreak" Path="18_ContinueBreak/18_ContinueBreak.project" Active="No"/>
   <Project Name="19_CharactersAndStrings" Path="19_CharactersAndStrings/19_CharactersAndStrings.project" Active="No"/>
-  <Project Name="20_CppStrings" Path="20_CppStrings/20_CppStrings.project" Active="Yes"/>
+  <Project Name="20_CppStrings" Path="20_CppStrings/20_CppStrings.project" Active="No"/>
+  <Project Name="21_Functions" Path="21_Functions/21_Functions.project" Active="No"/>
+  <Project Name="22_FunctionsChallenge" Path="22_FunctionsChallenge/22_FunctionsChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -45,6 +47,8 @@
       <Project Name="18_ContinueBreak" ConfigName="Debug"/>
       <Project Name="19_CharactersAndStrings" ConfigName="Debug"/>
       <Project Name="20_CppStrings" ConfigName="Debug"/>
+      <Project Name="21_Functions" ConfigName="Debug"/>
+      <Project Name="22_FunctionsChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -68,6 +72,8 @@
       <Project Name="18_ContinueBreak" ConfigName="Release"/>
       <Project Name="19_CharactersAndStrings" ConfigName="Release"/>
       <Project Name="20_CppStrings" ConfigName="Release"/>
+      <Project Name="21_Functions" ConfigName="Release"/>
+      <Project Name="22_FunctionsChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
