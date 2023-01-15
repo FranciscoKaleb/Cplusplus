@@ -1,0 +1,1 @@
+../build-Debug/23_Pointers/main.cpp.o: main.cpp

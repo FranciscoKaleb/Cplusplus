@@ -339,7 +339,7 @@ vector<int> arrange_descending(vector<int> &arr)
     }
     return arr;
 }
-void print_vertical_histogram(vector<int> &arr)
+void print_vertical_histogram(const vector<int> &arr)
 {
     int n = arr.size();
 
