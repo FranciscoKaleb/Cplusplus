@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="ObjectOriented" Database="" Version="10000" SWTLW="Yes">
+  <WorkspaceParserMacros/>
+  <WorkspaceParserPaths/>
+  <Project Name="01_ClassesAndObjects" Path="01_ClassesAndObjects/01_ClassesAndObjects.project" Active="No"/>
+  <Project Name="02_GetAndSet" Path="02_GetAndSet/02_GetAndSet.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="01_ClassesAndObjects" ConfigName="Debug"/>
+      <Project Name="02_GetAndSet" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="01_ClassesAndObjects" ConfigName="Release"/>
+      <Project Name="02_GetAndSet" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Fundamentals" Database="" Version="10000" SWTLW="Yes">
+  <WorkspaceParserMacros/>
+  <WorkspaceParserPaths/>
+  <Project Name="01_GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="02_InitializingVariables" Path="02_InitializingVariables/02_InitializingVariables.project" Active="No"/>
+  <Project Name="03_PrimitiveDataTypes" Path="03_PrimitiveDataTypes/03_PrimitiveDataTypes.project" Active="No"/>
+  <Project Name="04_SizeofOperator" Path="04_SizeofOperator/04_SizeofOperator.project" Active="No"/>
+  <Project Name="05_Constants" Path="05_Constants/05_Constants.project" Active="No"/>
+  <Project Name="06_Arrays" Path="06_Arrays/06_Arrays.project" Active="No"/>
+  <Project Name="07_Vectors" Path="07_Vectors/07_Vectors.project" Active="No"/>
+  <Project Name="08_Operators" Path="08_Operators/08_Operators.project" Active="No"/>
+  <Project Name="09_MixedTypeExpressions" Path="09_MixedTypeExpressions/09_MixedTypeExpressions.project" Active="No"/>
+  <Project Name="10_EqualityOperator" Path="10_EqualityOperator/10_EqualityOperator.project" Active="No"/>
+  <Project Name="11_RelationalOperator" Path="11_RelationalOperator/11_RelationalOperator.project" Active="No"/>
+  <Project Name="12_LogicalOperators" Path="12_LogicalOperators/12_LogicalOperators.project" Active="No"/>
+  <Project Name="13_IfStatement" Path="13_IfStatement/13_IfStatement.project" Active="No"/>
+  <Project Name="14_SwtichStatement" Path="14_SwtichStatement/14_SwtichStatement.project" Active="No"/>
+  <Project Name="15_ConditionalOperator" Path="15_ConditionalOperator/15_ConditionalOperator.project" Active="No"/>
+  <Project Name="16_Forloop" Path="16_Forloop/16_Forloop.project" Active="No"/>
+  <Project Name="17_WhileLoop" Path="17_WhileLoop/17_WhileLoop.project" Active="No"/>
+  <Project Name="18_ContinueBreak" Path="18_ContinueBreak/18_ContinueBreak.project" Active="No"/>
+  <Project Name="19_CharactersAndStrings" Path="19_CharactersAndStrings/19_CharactersAndStrings.project" Active="No"/>
+  <Project Name="20_CppStrings" Path="20_CppStrings/20_CppStrings.project" Active="No"/>
+  <Project Name="21_Functions" Path="21_Functions/21_Functions.project" Active="No"/>
+  <Project Name="22_FunctionsChallenge" Path="22_FunctionsChallenge/22_FunctionsChallenge.project" Active="No"/>
+  <Project Name="23_Pointers" Path="23_Pointers/23_Pointers.project" Active="No"/>
+  <Project Name="23_Pointers_challenge" Path="23_Pointers_challenge/23_Pointers_challenge.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="01_GlobalVariables" ConfigName="Debug"/>
+      <Project Name="02_InitializingVariables" ConfigName="Debug"/>
+      <Project Name="03_PrimitiveDataTypes" ConfigName="Debug"/>
+      <Project Name="04_SizeofOperator" ConfigName="Debug"/>
+      <Project Name="05_Constants" ConfigName="Debug"/>
+      <Project Name="06_Arrays" ConfigName="Debug"/>
+      <Project Name="07_Vectors" ConfigName="Debug"/>
+      <Project Name="08_Operators" ConfigName="Debug"/>
+      <Project Name="09_MixedTypeExpressions" ConfigName="Debug"/>
+      <Project Name="10_EqualityOperator" ConfigName="Debug"/>
+      <Project Name="11_RelationalOperator" ConfigName="Debug"/>
+      <Project Name="12_LogicalOperators" ConfigName="Debug"/>
+      <Project Name="13_IfStatement" ConfigName="Debug"/>
+      <Project Name="14_SwtichStatement" ConfigName="Debug"/>
+      <Project Name="15_ConditionalOperator" ConfigName="Debug"/>
+      <Project Name="16_Forloop" ConfigName="Debug"/>
+      <Project Name="17_WhileLoop" ConfigName="Debug"/>
+      <Project Name="18_ContinueBreak" ConfigName="Debug"/>
+      <Project Name="19_CharactersAndStrings" ConfigName="Debug"/>
+      <Project Name="20_CppStrings" ConfigName="Debug"/>
+      <Project Name="21_Functions" ConfigName="Debug"/>
+      <Project Name="22_FunctionsChallenge" ConfigName="Debug"/>
+      <Project Name="23_Pointers" ConfigName="Debug"/>
+      <Project Name="23_Pointers_challenge" ConfigName="Debug"/>
+      <Project Name="24_OOPClassesAndObjects" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="01_GlobalVariables" ConfigName="Release"/>
+      <Project Name="02_InitializingVariables" ConfigName="Release"/>
+      <Project Name="03_PrimitiveDataTypes" ConfigName="Release"/>
+      <Project Name="04_SizeofOperator" ConfigName="Release"/>
+      <Project Name="05_Constants" ConfigName="Release"/>
+      <Project Name="06_Arrays" ConfigName="Release"/>
+      <Project Name="07_Vectors" ConfigName="Release"/>
+      <Project Name="08_Operators" ConfigName="Release"/>
+      <Project Name="09_MixedTypeExpressions" ConfigName="Release"/>
+      <Project Name="10_EqualityOperator" ConfigName="Release"/>
+      <Project Name="11_RelationalOperator" ConfigName="Release"/>
+      <Project Name="12_LogicalOperators" ConfigName="Release"/>
+      <Project Name="13_IfStatement" ConfigName="Release"/>
+      <Project Name="14_SwtichStatement" ConfigName="Release"/>
+      <Project Name="15_ConditionalOperator" ConfigName="Release"/>
+      <Project Name="16_Forloop" ConfigName="Release"/>
+      <Project Name="17_WhileLoop" ConfigName="Release"/>
+      <Project Name="18_ContinueBreak" ConfigName="Release"/>
+      <Project Name="19_CharactersAndStrings" ConfigName="Release"/>
+      <Project Name="20_CppStrings" ConfigName="Release"/>
+      <Project Name="21_Functions" ConfigName="Release"/>
+      <Project Name="22_FunctionsChallenge" ConfigName="Release"/>
+      <Project Name="23_Pointers" ConfigName="Release"/>
+      <Project Name="23_Pointers_challenge" ConfigName="Release"/>
+      <Project Name="24_OOPClassesAndObjects" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
