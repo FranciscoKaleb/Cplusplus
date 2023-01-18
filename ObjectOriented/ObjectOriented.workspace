@@ -3,17 +3,44 @@
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
   <Project Name="01_ClassesAndObjects" Path="01_ClassesAndObjects/01_ClassesAndObjects.project" Active="No"/>
-  <Project Name="02_GetAndSet" Path="02_GetAndSet/02_GetAndSet.project" Active="Yes"/>
+  <Project Name="02_GetAndSet" Path="02_GetAndSet/02_GetAndSet.project" Active="No"/>
+  <Project Name="03_Constructors" Path="03_Constructors/03_Constructors.project" Active="No"/>
+  <Project Name="03_ShallowCopy" Path="03_ShallowCopy/03_ShallowCopy.project" Active="No"/>
+  <Project Name="03_DeepCopy" Path="03_DeepCopy/03_DeepCopy.project" Active="No"/>
+  <Project Name="03_MoveConstructors" Path="03_MoveConstructors/03_MoveConstructors.project" Active="No"/>
+  <Project Name="04_thisKeyword" Path="04_thisKeyword/04_thisKeyword.project" Active="No"/>
+  <Project Name="05_constInClasses" Path="05_constInClasses/05_constInClasses.project" Active="No"/>
+  <Project Name="06_Struct" Path="06_Struct/06_Struct.project" Active="No"/>
+  <Project Name="07_friendKeyword" Path="07_friendKeyword/07_friendKeyword.project" Active="No"/>
+  <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01_ClassesAndObjects" ConfigName="Debug"/>
       <Project Name="02_GetAndSet" ConfigName="Debug"/>
+      <Project Name="03_Constructors" ConfigName="Debug"/>
+      <Project Name="03_ShallowCopy" ConfigName="Debug"/>
+      <Project Name="03_DeepCopy" ConfigName="Debug"/>
+      <Project Name="03_MoveConstructors" ConfigName="Debug"/>
+      <Project Name="04_thisKeyword" ConfigName="Debug"/>
+      <Project Name="05_constInClasses" ConfigName="Debug"/>
+      <Project Name="06_Struct" ConfigName="Debug"/>
+      <Project Name="07_friendKeyword" ConfigName="Debug"/>
+      <Project Name="08_SectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01_ClassesAndObjects" ConfigName="Release"/>
       <Project Name="02_GetAndSet" ConfigName="Release"/>
+      <Project Name="03_Constructors" ConfigName="Release"/>
+      <Project Name="03_ShallowCopy" ConfigName="Release"/>
+      <Project Name="03_DeepCopy" ConfigName="Release"/>
+      <Project Name="03_MoveConstructors" ConfigName="Release"/>
+      <Project Name="04_thisKeyword" ConfigName="Release"/>
+      <Project Name="05_constInClasses" ConfigName="Release"/>
+      <Project Name="06_Struct" ConfigName="Release"/>
+      <Project Name="07_friendKeyword" ConfigName="Release"/>
+      <Project Name="08_SectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

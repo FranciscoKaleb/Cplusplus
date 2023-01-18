@@ -7,11 +7,13 @@ using namespace std;
 #include <cmath>
 
 
-
 int main()
 {
     
 }
 
-
+void Example_1()
+{
+   
+}
 

@@ -1,2 +1,15 @@
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\08_SectionChallenge\Movie.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\08_SectionChallenge\Movie.h
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\08_SectionChallenge\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\07_friendKeyword\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\05_constInClasses\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\03_MoveConstructors\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\03_DeepCopy\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\06_Struct\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\03_ShallowCopy\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\03_Constructors\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\04_thisKeyword\main.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\02_GetAndSet\main.cpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\02_GetAndSet\Account.hpp
+C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\02_GetAndSet\Account.cpp
 C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\01_ClassesAndObjects\main.cpp
