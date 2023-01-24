@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Overloading_operators" Database="" Version="10000">
+  <Project Name="01_OperatorOverloadingStart" Path="01_OperatorOverloadingStart/01_OperatorOverloadingStart.project" Active="No"/>
+  <Project Name="02_OperatorOverloadingCopy" Path="02_OperatorOverloadingCopy/02_OperatorOverloadingCopy.project" Active="No"/>
+  <Project Name="03_OperatorOverloadingMove" Path="03_OperatorOverloadingMove/03_OperatorOverloadingMove.project" Active="No"/>
+  <Project Name="04_OverloadingOperatorsAsMemberFunctions" Path="04_OverloadingOperatorsAsMemberFunctions/04_OverloadingOperatorsAsMemberFunctions.project" Active="Yes"/>
+  <Project Name="05_OO_GlobalFunctions" Path="05_OO_GlobalFunctions/05_OO_GlobalFunctions.project" Active="No"/>
+  <Project Name="06_StreamInsertionExtractionOperator" Path="06_StreamInsertionExtractionOperator/06_StreamInsertionExtractionOperator.project" Active="No"/>
+  <Project Name="Mystring-insertion-extraction" Path="Mystring-insertion-extraction/Mystring-insertion-extraction.project" Active="No"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
+  <Project Name="07_SectionChallenge01" Path="07_SectionChallenge01/07_SectionChallenge01.project" Active="No"/>
+  <Project Name="07_Sectionchallenge02" Path="07_Sectionchallenge02/07_Sectionchallenge02.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="01_OperatorOverloadingStart" ConfigName="Debug"/>
+      <Project Name="02_OperatorOverloadingCopy" ConfigName="Debug"/>
+      <Project Name="03_OperatorOverloadingMove" ConfigName="Debug"/>
+      <Project Name="04_OverloadingOperatorsAsMemberFunctions" ConfigName="Debug"/>
+      <Project Name="05_OO_GlobalFunctions" ConfigName="Debug"/>
+      <Project Name="06_StreamInsertionExtractionOperator" ConfigName="Debug"/>
+      <Project Name="Mystring-insertion-extraction" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="07_SectionChallenge01" ConfigName="Debug"/>
+      <Project Name="07_Sectionchallenge02" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="01_OperatorOverloadingStart" ConfigName="Release"/>
+      <Project Name="02_OperatorOverloadingCopy" ConfigName="Release"/>
+      <Project Name="03_OperatorOverloadingMove" ConfigName="Release"/>
+      <Project Name="04_OverloadingOperatorsAsMemberFunctions" ConfigName="Release"/>
+      <Project Name="05_OO_GlobalFunctions" ConfigName="Release"/>
+      <Project Name="06_StreamInsertionExtractionOperator" ConfigName="Release"/>
+      <Project Name="Mystring-insertion-extraction" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="07_SectionChallenge01" ConfigName="Release"/>
+      <Project Name="07_Sectionchallenge02" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

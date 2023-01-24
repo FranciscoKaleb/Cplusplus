@@ -1,0 +1,1 @@
+../build-Debug/02_OperatorOverloadingCopy/main.cpp.o ../build-Debug/02_OperatorOverloadingCopy/MyString.cpp.o   

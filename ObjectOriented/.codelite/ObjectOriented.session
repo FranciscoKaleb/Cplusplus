@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\ObjectOriented\ObjectOriented.workspace">
+<Session Name="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\ObjectOriented.workspace">
   <int Value="1" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\ObjectOriented\ObjectOriented.workspace" Name="m_workspaceName"/>
+  <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\ObjectOriented.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\ObjectOriented\01_ClassesAndObjects\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\03_MoveConstructors\main.cpp" Name="FileName"/>
       <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="34" Name="CurrentLine"/>
+      <int Value="1" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="9"/>
-        <IntVectorItem Value="34"/>
-      </IntVector>
+      <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\ObjectOriented\02_GetAndSet\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\ObjectOriented\07_friendKeyword\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="1" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
