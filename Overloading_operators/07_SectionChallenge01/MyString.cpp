@@ -105,6 +105,43 @@ bool MyString::operator==(const MyString &rhs)const
     }
 }
 
+// != operator
+bool MyString::operator!=(const MyString &rhs)const
+{
+    if(std::strcmp(str,rhs.str) != 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+bool MyString::operator<(const MyString &rhs)const
+{
+     if(std::strcmp(str,rhs.str) == -1)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+bool MyString::operator>(const MyString &rhs)const
+{
+     if(std::strcmp(str,rhs.str) == 1)
+    {
+        return true;
+    }
+    else  
+    {
+        return false;
+    }
+}
+
+
 // to lower case
 MyString MyString::operator-() const
 {
@@ -130,6 +167,21 @@ MyString MyString::operator+(const MyString &rhs) const
     MyString temp {buff};
     delete [] buff;
     return temp;
+}
+
+MyString MyString::operator+=(MyString &rhs)
+{
+    if(str == rhs.str)
+    {
+        
+        str = std::strcat(str, str);
+    }
+    else
+    {
+        str = std::strcat(str, rhs.str);
+    }
+    
+    
 }
 
 // display method

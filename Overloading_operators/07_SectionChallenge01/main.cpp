@@ -9,23 +9,16 @@ using namespace std;
 
 int main()
 {
-
+    
     MyString greet{"hello"};
     MyString insult{"WEAK"};
-    MyString greetings{"hello"};
+    MyString greetings{"helli"};
     MyString empty = -insult;
-    greetings = greet + " " + insult;
-    //greetings = "hello" + " " + "WEAK"; doesnt work 
-
-    cout << boolalpha;
-    cout << (greet == "hello") << endl;
-    cout << (greet == greetings) << endl;
-    empty.display();// we cant use cout to directly output our MyString class strings
-    greetings.display();// so we use .display() function;
     
-    
-    
-    
+    greet += greet;
+    greet.display();
+    greet += insult;
+    greet.display();
 }
 
 

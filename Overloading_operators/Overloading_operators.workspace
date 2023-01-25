@@ -3,13 +3,14 @@
   <Project Name="01_OperatorOverloadingStart" Path="01_OperatorOverloadingStart/01_OperatorOverloadingStart.project" Active="No"/>
   <Project Name="02_OperatorOverloadingCopy" Path="02_OperatorOverloadingCopy/02_OperatorOverloadingCopy.project" Active="No"/>
   <Project Name="03_OperatorOverloadingMove" Path="03_OperatorOverloadingMove/03_OperatorOverloadingMove.project" Active="No"/>
-  <Project Name="04_OverloadingOperatorsAsMemberFunctions" Path="04_OverloadingOperatorsAsMemberFunctions/04_OverloadingOperatorsAsMemberFunctions.project" Active="Yes"/>
+  <Project Name="04_OverloadingOperatorsAsMemberFunctions" Path="04_OverloadingOperatorsAsMemberFunctions/04_OverloadingOperatorsAsMemberFunctions.project" Active="No"/>
   <Project Name="05_OO_GlobalFunctions" Path="05_OO_GlobalFunctions/05_OO_GlobalFunctions.project" Active="No"/>
   <Project Name="06_StreamInsertionExtractionOperator" Path="06_StreamInsertionExtractionOperator/06_StreamInsertionExtractionOperator.project" Active="No"/>
   <Project Name="Mystring-insertion-extraction" Path="Mystring-insertion-extraction/Mystring-insertion-extraction.project" Active="No"/>
   <Project Name="test" Path="test/test.project" Active="No"/>
   <Project Name="07_SectionChallenge01" Path="07_SectionChallenge01/07_SectionChallenge01.project" Active="No"/>
   <Project Name="07_Sectionchallenge02" Path="07_Sectionchallenge02/07_Sectionchallenge02.project" Active="No"/>
+  <Project Name="Ascii" Path="Ascii/Ascii.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -23,6 +24,7 @@
       <Project Name="test" ConfigName="Debug"/>
       <Project Name="07_SectionChallenge01" ConfigName="Debug"/>
       <Project Name="07_Sectionchallenge02" ConfigName="Debug"/>
+      <Project Name="Ascii" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="test" ConfigName="Release"/>
       <Project Name="07_SectionChallenge01" ConfigName="Release"/>
       <Project Name="07_Sectionchallenge02" ConfigName="Release"/>
+      <Project Name="Ascii" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

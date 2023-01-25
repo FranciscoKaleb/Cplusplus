@@ -21,7 +21,11 @@ public:
     
     MyString operator-() const; // make lowercase
     MyString operator+(const MyString &rhs) const; // concatenate
+    MyString operator+=(MyString &rhs);
     bool operator==(const MyString &rhs) const; 
+    bool operator!=(const MyString &rhs) const; 
+    bool operator<(const MyString &rhs) const;
+    bool operator>(const MyString &rhs) const;
     
     void display() const;
     int get_length() const;
