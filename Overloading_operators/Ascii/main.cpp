@@ -16,7 +16,7 @@ int main()
                         "WILLIAM", "BLACK ROCK", "BLACKROCK","Hadron", "France",
                         "Vatican","Europe","Assistant", "ASSISTANT", "Reason", "ChatGPT",
                         "openAI","EPISCOPAL","Holy See","CATHOLIC", "NEWWORLD", "Geneva",
-                        "ECCLESIA","CATHOLICA"};
+                        "ECCLESIA","CATHOLICA","Muslim", "BILLGATES"};
     int sum {0};
     
     for(string word: GroupOfWords)

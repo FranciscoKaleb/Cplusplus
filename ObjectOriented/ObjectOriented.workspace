@@ -12,7 +12,10 @@
   <Project Name="05_constInClasses" Path="05_constInClasses/05_constInClasses.project" Active="No"/>
   <Project Name="06_Struct" Path="06_Struct/06_Struct.project" Active="No"/>
   <Project Name="07_friendKeyword" Path="07_friendKeyword/07_friendKeyword.project" Active="No"/>
-  <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="Yes"/>
+  <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="No"/>
+  <Project Name="09_Inheritance" Path="09_Inheritance/09_Inheritance.project" Active="No"/>
+  <Project Name="10_ProtectedMembersAndClassAccess" Path="10_ProtectedMembersAndClassAccess/10_ProtectedMembersAndClassAccess.project" Active="No"/>
+  <Project Name="11_PassingArgumentsToBaseConstructors" Path="11_PassingArgumentsToBaseConstructors/11_PassingArgumentsToBaseConstructors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -27,6 +30,9 @@
       <Project Name="06_Struct" ConfigName="Debug"/>
       <Project Name="07_friendKeyword" ConfigName="Debug"/>
       <Project Name="08_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="09_Inheritance" ConfigName="Debug"/>
+      <Project Name="10_ProtectedMembersAndClassAccess" ConfigName="Debug"/>
+      <Project Name="11_PassingArgumentsToBaseConstructors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -41,6 +47,9 @@
       <Project Name="06_Struct" ConfigName="Release"/>
       <Project Name="07_friendKeyword" ConfigName="Release"/>
       <Project Name="08_SectionChallenge" ConfigName="Release"/>
+      <Project Name="09_Inheritance" ConfigName="Release"/>
+      <Project Name="10_ProtectedMembersAndClassAccess" ConfigName="Release"/>
+      <Project Name="11_PassingArgumentsToBaseConstructors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
