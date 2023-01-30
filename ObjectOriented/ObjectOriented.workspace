@@ -15,7 +15,11 @@
   <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="No"/>
   <Project Name="09_Inheritance" Path="09_Inheritance/09_Inheritance.project" Active="No"/>
   <Project Name="10_ProtectedMembersAndClassAccess" Path="10_ProtectedMembersAndClassAccess/10_ProtectedMembersAndClassAccess.project" Active="No"/>
-  <Project Name="11_PassingArgumentsToBaseConstructors" Path="11_PassingArgumentsToBaseConstructors/11_PassingArgumentsToBaseConstructors.project" Active="Yes"/>
+  <Project Name="11_PassingArgumentsToBaseConstructors" Path="11_PassingArgumentsToBaseConstructors/11_PassingArgumentsToBaseConstructors.project" Active="No"/>
+  <Project Name="12_PolymorphismBaseClassPointers" Path="12_PolymorphismBaseClassPointers/12_PolymorphismBaseClassPointers.project" Active="No"/>
+  <Project Name="13_PureVirtualFunction" Path="13_PureVirtualFunction/13_PureVirtualFunction.project" Active="No"/>
+  <Project Name="14_AbstractClassesAsInterface" Path="14_AbstractClassesAsInterface/14_AbstractClassesAsInterface.project" Active="No"/>
+  <Project Name="15_SectionChallenge" Path="15_SectionChallenge/15_SectionChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -33,6 +37,10 @@
       <Project Name="09_Inheritance" ConfigName="Debug"/>
       <Project Name="10_ProtectedMembersAndClassAccess" ConfigName="Debug"/>
       <Project Name="11_PassingArgumentsToBaseConstructors" ConfigName="Debug"/>
+      <Project Name="12_PolymorphismBaseClassPointers" ConfigName="Debug"/>
+      <Project Name="13_PureVirtualFunction" ConfigName="Debug"/>
+      <Project Name="14_AbstractClassesAsInterface" ConfigName="Debug"/>
+      <Project Name="15_SectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -50,6 +58,10 @@
       <Project Name="09_Inheritance" ConfigName="Release"/>
       <Project Name="10_ProtectedMembersAndClassAccess" ConfigName="Release"/>
       <Project Name="11_PassingArgumentsToBaseConstructors" ConfigName="Release"/>
+      <Project Name="12_PolymorphismBaseClassPointers" ConfigName="Release"/>
+      <Project Name="13_PureVirtualFunction" ConfigName="Release"/>
+      <Project Name="14_AbstractClassesAsInterface" ConfigName="Release"/>
+      <Project Name="15_SectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

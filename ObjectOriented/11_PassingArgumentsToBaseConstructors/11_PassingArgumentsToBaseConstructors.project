@@ -93,16 +93,28 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Trust_Account.cpp"/>
-    <File Name="Trust_Account.h"/>
-    <File Name="Checking_Account.cpp"/>
-    <File Name="Checking_Account.h"/>
-    <File Name="Account_Util.cpp"/>
-    <File Name="Account_Util.h"/>
-    <File Name="Savings_Account.cpp"/>
-    <File Name="Savings_Account.h"/>
-    <File Name="Account.cpp"/>
-    <File Name="Account.h"/>
+    <VirtualDirectory Name="Utility class">
+      <File Name="Account_Util.h"/>
+      <File Name="Account_Util.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Account">
+      <File Name="Account.h"/>
+      <File Name="Account.cpp"/>
+      <VirtualDirectory Name="Checkings Account">
+        <File Name="Checking_Account.cpp"/>
+        <File Name="Checking_Account.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Savings account">
+        <VirtualDirectory Name="Trust account">
+          <File Name="Trust_Account.h"/>
+          <File Name="Trust_Account.cpp"/>
+        </VirtualDirectory>
+        <File Name="Savings_Account.h"/>
+        <File Name="Savings_Account.cpp"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
     <File Name="main.cpp"/>
   </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>
