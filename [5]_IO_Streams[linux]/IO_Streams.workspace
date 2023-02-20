@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="IO_Streams" Database="" Version="10000">
+  <Project Name="01_Streams" Path="01_Streams/01_Streams.project" Active="No"/>
+  <Project Name="02_Integers" Path="02_Integers/02_Integers.project" Active="No"/>
+  <Project Name="03_FloatingPoint" Path="03_FloatingPoint/03_FloatingPoint.project" Active="No"/>
+  <Project Name="04_StreamsManipulator" Path="04_StreamsManipulator/04_StreamsManipulator.project" Active="No"/>
+  <Project Name="05_SectionChallenge" Path="05_SectionChallenge/05_SectionChallenge.project" Active="No"/>
+  <Project Name="06_ReadFromText" Path="06_ReadFromText/06_ReadFromText.project" Active="No"/>
+  <Project Name="07_streams" Path="07_streams/07_streams.project" Active="No"/>
+  <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="No"/>
+  <Project Name="09_SectionChallenge" Path="09_SectionChallenge/09_SectionChallenge.project" Active="No"/>
+  <Project Name="10_Write" Path="10_Write/10_Write.project" Active="No"/>
+  <Project Name="11_StringStreams" Path="11_StringStreams/11_StringStreams.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="01_Streams" ConfigName="Debug"/>
+      <Project Name="02_Integers" ConfigName="Debug"/>
+      <Project Name="03_FloatingPoint" ConfigName="Debug"/>
+      <Project Name="04_StreamsManipulator" ConfigName="Debug"/>
+      <Project Name="05_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="06_ReadFromText" ConfigName="Debug"/>
+      <Project Name="07_streams" ConfigName="Debug"/>
+      <Project Name="08_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="09_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="10_Write" ConfigName="Debug"/>
+      <Project Name="11_StringStreams" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="01_Streams" ConfigName="Release"/>
+      <Project Name="02_Integers" ConfigName="Release"/>
+      <Project Name="03_FloatingPoint" ConfigName="Release"/>
+      <Project Name="04_StreamsManipulator" ConfigName="Release"/>
+      <Project Name="05_SectionChallenge" ConfigName="Release"/>
+      <Project Name="06_ReadFromText" ConfigName="Release"/>
+      <Project Name="07_streams" ConfigName="Release"/>
+      <Project Name="08_SectionChallenge" ConfigName="Release"/>
+      <Project Name="09_SectionChallenge" ConfigName="Release"/>
+      <Project Name="10_Write" ConfigName="Release"/>
+      <Project Name="11_StringStreams" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

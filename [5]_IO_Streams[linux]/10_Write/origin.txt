@@ -1,0 +1,6 @@
+cow
+eats
+my
+breakfast
+everyday
+damn it\0

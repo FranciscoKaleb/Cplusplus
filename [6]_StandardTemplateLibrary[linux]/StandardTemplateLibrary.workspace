@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="StandardTemplateLibrary" Database="" Version="10000">
+  <Project Name="01_Intro" Path="01_Intro/01_Intro.project" Active="No"/>
+  <Project Name="02_GenericProgrammingWithMacros" Path="02_GenericProgrammingWithMacros/02_GenericProgrammingWithMacros.project" Active="No"/>
+  <Project Name="03_FunctionTemplate" Path="03_FunctionTemplate/03_FunctionTemplate.project" Active="No"/>
+  <Project Name="04_ClassTemplate" Path="04_ClassTemplate/04_ClassTemplate.project" Active="No"/>
+  <Project Name="05_GenericArrayTemplateClass" Path="05_GenericArrayTemplateClass/05_GenericArrayTemplateClass.project" Active="No"/>
+  <Project Name="06_STLContainerBasic" Path="06_STLContainerBasic/06_STLContainerBasic.project" Active="No"/>
+  <Project Name="07_IntroductionToIterators" Path="07_IntroductionToIterators/07_IntroductionToIterators.project" Active="No"/>
+  <Project Name="08_IntroToSTLAlgorithms" Path="08_IntroToSTLAlgorithms/08_IntroToSTLAlgorithms.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="01_Intro" ConfigName="Debug"/>
+      <Project Name="02_GenericProgrammingWithMacros" ConfigName="Debug"/>
+      <Project Name="03_FunctionTemplate" ConfigName="Debug"/>
+      <Project Name="04_ClassTemplate" ConfigName="Debug"/>
+      <Project Name="05_GenericArrayTemplateClass" ConfigName="Debug"/>
+      <Project Name="06_STLContainerBasic" ConfigName="Debug"/>
+      <Project Name="07_IntroductionToIterators" ConfigName="Debug"/>
+      <Project Name="08_IntroToSTLAlgorithms" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="01_Intro" ConfigName="Release"/>
+      <Project Name="02_GenericProgrammingWithMacros" ConfigName="Release"/>
+      <Project Name="03_FunctionTemplate" ConfigName="Release"/>
+      <Project Name="04_ClassTemplate" ConfigName="Release"/>
+      <Project Name="05_GenericArrayTemplateClass" ConfigName="Release"/>
+      <Project Name="06_STLContainerBasic" ConfigName="Release"/>
+      <Project Name="07_IntroductionToIterators" ConfigName="Release"/>
+      <Project Name="08_IntroToSTLAlgorithms" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

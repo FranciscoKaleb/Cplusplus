@@ -1,0 +1,1 @@
+../build-Debug/04_StreamsManipulator/main.cpp.o: main.cpp
