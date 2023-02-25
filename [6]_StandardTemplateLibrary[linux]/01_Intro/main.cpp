@@ -16,7 +16,7 @@ int main()
 		cout << elem << endl;
 	}
 	// =========================================
-	reverse(v.begin(), v.end());
+	reverse(v.begin(), v.end());kdfgdfg
 
 	for(auto elem: v)
 	{

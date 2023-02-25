@@ -1,0 +1,1 @@
+../build-Debug/12_SequenceContainerDeque/main.cpp.o: main.cpp

@@ -1,0 +1,2 @@
+../../[6]_StandardTemplateLibrary[linux]/build-Debug/__/[5]_IO_Streams[linux]/10_Write/main.cpp.o: \
+ main.cpp

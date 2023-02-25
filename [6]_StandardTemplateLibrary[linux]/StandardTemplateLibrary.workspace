@@ -7,7 +7,20 @@
   <Project Name="05_GenericArrayTemplateClass" Path="05_GenericArrayTemplateClass/05_GenericArrayTemplateClass.project" Active="No"/>
   <Project Name="06_STLContainerBasic" Path="06_STLContainerBasic/06_STLContainerBasic.project" Active="No"/>
   <Project Name="07_IntroductionToIterators" Path="07_IntroductionToIterators/07_IntroductionToIterators.project" Active="No"/>
-  <Project Name="08_IntroToSTLAlgorithms" Path="08_IntroToSTLAlgorithms/08_IntroToSTLAlgorithms.project" Active="Yes"/>
+  <Project Name="08_IntroToSTLAlgorithms" Path="08_IntroToSTLAlgorithms/08_IntroToSTLAlgorithms.project" Active="No"/>
+  <Project Name="08_StringToVector" Path="[9]_SequenceContainer/[9]_SequenceContainer.project" Active="No"/>
+  <Project Name="09_SequenceContainerArray" Path="09_SequenceContainer/09_SequenceContainer.project" Active="No"/>
+  <Project Name="10_SequenceContainerVector" Path="10_SequenceContainerVector/10_SequenceContainerVector.project" Active="No"/>
+  <Project Name="11_CharAndStringRefresher" Path="11_CharAndStringRefresher/11_CharAndStringRefresher.project" Active="No"/>
+  <Project Name="12_SequenceContainerDeque" Path="12_SequenceContainerDeque/12_SequenceContainerDeque.project" Active="No"/>
+  <Project Name="13_SequenceContainerForwardList" Path="13_SequenceContainerForwardList/13_SequenceContainerForwardList.project" Active="No"/>
+  <Project Name="14_AssociativeContainersSets" Path="14_AssociativeContainersSets/14_AssociativeContainersSets.project" Active="No"/>
+  <Project Name="15_AssociativeContainersMap" Path="15_AssociativeContainersMap/15_AssociativeContainersMap.project" Active="Yes"/>
+  <Project Name="16_ContainerAdaptorsStack" Path="16_ContainerAdaptorsStack/16_ContainerAdaptorsStack.project" Active="No"/>
+  <Project Name="17_ContainerAdaptorsQueue" Path="17_ContainerAdaptorsQueue/17_ContainerAdaptorsQueue.project" Active="No"/>
+  <Project Name="18_ContainerAdaptorsPriorityQueue" Path="18_ContainerAdaptorsPriorityQueue/18_ContainerAdaptorsPriorityQueue.project" Active="No"/>
+  <Project Name="12_SectionChallengeDeque" Path="12_SectionChallengeDeque/12_SectionChallengeDeque.project" Active="No"/>
+  <Project Name="13_SectionChallengeList" Path="13_SectionChallengeList/13_SectionChallengeList.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +32,19 @@
       <Project Name="06_STLContainerBasic" ConfigName="Debug"/>
       <Project Name="07_IntroductionToIterators" ConfigName="Debug"/>
       <Project Name="08_IntroToSTLAlgorithms" ConfigName="Debug"/>
+      <Project Name="08_StringToVector" ConfigName="Debug"/>
+      <Project Name="09_SequenceContainerArray" ConfigName="Debug"/>
+      <Project Name="10_SequenceContainerVector" ConfigName="Debug"/>
+      <Project Name="11_CharAndStringRefresher" ConfigName="Debug"/>
+      <Project Name="12_SequenceContainerDeque" ConfigName="Debug"/>
+      <Project Name="13_SequenceContainerForwardList" ConfigName="Debug"/>
+      <Project Name="14_AssociativeContainersSets" ConfigName="Debug"/>
+      <Project Name="15_AssociativeContainersMap" ConfigName="Debug"/>
+      <Project Name="16_ContainerAdaptorsStack" ConfigName="Debug"/>
+      <Project Name="17_ContainerAdaptorsQueue" ConfigName="Debug"/>
+      <Project Name="18_ContainerAdaptorsPriorityQueue" ConfigName="Debug"/>
+      <Project Name="12_SectionChallengeDeque" ConfigName="Debug"/>
+      <Project Name="13_SectionChallengeList" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +56,19 @@
       <Project Name="06_STLContainerBasic" ConfigName="Release"/>
       <Project Name="07_IntroductionToIterators" ConfigName="Release"/>
       <Project Name="08_IntroToSTLAlgorithms" ConfigName="Release"/>
+      <Project Name="08_StringToVector" ConfigName="Release"/>
+      <Project Name="09_SequenceContainerArray" ConfigName="Release"/>
+      <Project Name="10_SequenceContainerVector" ConfigName="Release"/>
+      <Project Name="11_CharAndStringRefresher" ConfigName="Release"/>
+      <Project Name="12_SequenceContainerDeque" ConfigName="Release"/>
+      <Project Name="13_SequenceContainerForwardList" ConfigName="Release"/>
+      <Project Name="14_AssociativeContainersSets" ConfigName="Release"/>
+      <Project Name="15_AssociativeContainersMap" ConfigName="Release"/>
+      <Project Name="16_ContainerAdaptorsStack" ConfigName="Release"/>
+      <Project Name="17_ContainerAdaptorsQueue" ConfigName="Release"/>
+      <Project Name="18_ContainerAdaptorsPriorityQueue" ConfigName="Release"/>
+      <Project Name="12_SectionChallengeDeque" ConfigName="Release"/>
+      <Project Name="13_SectionChallengeList" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

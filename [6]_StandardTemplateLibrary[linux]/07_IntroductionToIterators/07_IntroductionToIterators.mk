@@ -6,18 +6,18 @@
 ProjectName            :=07_IntroductionToIterators
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=/home/franciscokaleb/Documents/Cplusplus/StandardTemplateLibrary
-ProjectPath            :=/home/franciscokaleb/Documents/Cplusplus/StandardTemplateLibrary/07_IntroductionToIterators
+WorkspacePath          :=/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]
+ProjectPath            :=/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/07_IntroductionToIterators
 IntermediateDirectory  :=../build-$(ConfigurationName)/07_IntroductionToIterators
 OutDir                 :=../build-$(ConfigurationName)/07_IntroductionToIterators
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=franciscokaleb
-Date                   :=18/02/23
+Date                   :=20/02/23
 CodeLitePath           :=/home/franciscokaleb/.codelite
-LinkerName             :=/bin/x86_64-linux-gnu-g++
-SharedObjectLinkerName :=/bin/x86_64-linux-gnu-g++ -shared -fPIC
+LinkerName             :=/usr/bin/x86_64-linux-gnu-g++
+SharedObjectLinkerName :=/usr/bin/x86_64-linux-gnu-g++ -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -47,13 +47,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := /bin/x86_64-linux-gnu-ar rcu
-CXX      := /bin/x86_64-linux-gnu-g++
-CC       := /bin/x86_64-linux-gnu-gcc
+AR       := /usr/bin/x86_64-linux-gnu-ar rcu
+CXX      := /usr/bin/x86_64-linux-gnu-g++
+CC       := /usr/bin/x86_64-linux-gnu-gcc
 CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := /bin/x86_64-linux-gnu-as
+AS       := /usr/bin/x86_64-linux-gnu-as
 
 
 ##
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 ../build-$(ConfigurationName)/07_IntroductionToIterators/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/07_IntroductionToIterators/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/franciscokaleb/Documents/Cplusplus/StandardTemplateLibrary/07_IntroductionToIterators/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/07_IntroductionToIterators/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/07_IntroductionToIterators/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/07_IntroductionToIterators/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/07_IntroductionToIterators/main.cpp$(DependSuffix) -MM main.cpp
 

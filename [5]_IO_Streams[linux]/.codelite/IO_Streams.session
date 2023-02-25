@@ -1,47 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="/home/franciscokaleb/Documents/IO_Streams/IO_Streams.workspace">
-  <int Value="4" Name="m_selectedTab"/>
-  <wxString Value="/home/franciscokaleb/Documents/IO_Streams/IO_Streams.workspace" Name="m_workspaceName"/>
+<Session Name="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/IO_Streams.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/IO_Streams.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/IO_Streams/09_SectionChallenge/main.cpp" Name="FileName"/>
-      <int Value="18" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/IO_Streams/08_SectionChallenge/main.cpp" Name="FileName"/>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/IO_Streams/10_Write/main.cpp" Name="FileName"/>
-      <int Value="63" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
+      <int Value="4" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="21"/>
-        <IntVectorItem Value="47"/>
-        <IntVectorItem Value="85"/>
-        <IntVectorItem Value="111"/>
+        <IntVectorItem Value="137"/>
       </IntVector>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/IO_Streams/10_Write/origin.txt" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/IO_Streams/11_StringStreams/main.cpp" Name="FileName"/>
-      <int Value="29" Name="FirstVisibleLine"/>
-      <int Value="47" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>
   <SerializedObject Name="m_breakpoints">

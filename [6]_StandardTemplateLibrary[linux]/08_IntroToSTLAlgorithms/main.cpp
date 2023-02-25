@@ -3,6 +3,7 @@
 #include <vector>
 #include <list>
 #include <cctype>
+#include "NonModifying.h"
 
 class Person
 {
@@ -26,37 +27,6 @@ public:
 	}
 };
 
-void find_test()
-{
-	std::cout << "\n====================================" << std::endl;
-	std::vector<int> vec {1,2,3,4,5};
-	auto loc = std::find(std::begin(vec), std::end(vec), 8);
-
-	if(loc != std::end(vec))
-	{
-		std::cout << "Found the number " << *loc << std::endl;
-	}
-	else{
-		std::cout << "Coudn't find the number" << std::endl;
-	}
-
-	std::list<Person> players{
-		{"Kaleb", 26},
-		{"Dexter", 25},
-		{"Gerald", 32}
-	};
-
-	auto loc2 = std::find(players.begin(), players.end(), Person("Kaleb", 26));
-	if(loc2 != players.end())
-	{
-		std::cout << "Found kaleb " << std::endl;
-	}
-	else{
-		std::cout << "Coudn't find the player" << std::endl;
-	}
-
-}
-
 void count_test()
 {
 	std::cout << "\n=================================" << std::endl;
@@ -67,10 +37,52 @@ void count_test()
 	std::cout << num << " occurence found" << std::endl;
 }
 
+void count_if_test()
+{
+	std::cout << "\n=========================================" << std::endl;
+
+	//count only if the element is even
+	std::vector<int> vec {1,2,3,4,5,1,2,1,100};
+	int num {};
+	num = std::count_if(vec.begin(), vec.end(), [](int x) {return x%2 == 0 ;});
+	std::cout << num << std::endl;
+
+}
+
+void replace_test()
+{
+	std::cout << "\n==========================" << std::endl;
+
+	std::vector<int> vec {1,2,3,4,5,1,2,1};
+	for(auto i:vec)
+	{
+		std::cout << i << " ";
+	}
+	std::cout << std::endl;
+
+	std::replace(vec.begin(), vec.end(),1,100); //replace 1 with 100;
+	for(auto i:vec)
+	{
+		std::cout << i << " ";
+	}
+	std::cout << std::endl;
+}
+
+void string_transform_test()
+{
+	std::cout << "\n====================================" << std::endl;
+
+	std::string str1 {"This is a test"};
+	std::cout << "Before transform: " << str1 << std:: endl;
+	std::transform(str1.begin(), str1.end(), str1.begin(), ::toupper);
+	std::cout << "After transform: " << str1 << std::endl;
+	std::transform(str1.begin(), str1.end()-10, str1.begin(), ::tolower);
+	std::cout << "After transform: " << str1 << std::endl;
+}
 
 int main()
 {
-	count_test();
+	string_transform_test();
 	return 0;
 }
 

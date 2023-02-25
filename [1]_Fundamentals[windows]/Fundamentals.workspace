@@ -2,7 +2,7 @@
 <CodeLite_Workspace Name="Fundamentals" Database="" Version="10000" SWTLW="Yes">
   <WorkspaceParserMacros/>
   <WorkspaceParserPaths/>
-  <Project Name="01_GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="01_GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="Yes"/>
   <Project Name="02_InitializingVariables" Path="02_InitializingVariables/02_InitializingVariables.project" Active="No"/>
   <Project Name="03_PrimitiveDataTypes" Path="03_PrimitiveDataTypes/03_PrimitiveDataTypes.project" Active="No"/>
   <Project Name="04_SizeofOperator" Path="04_SizeofOperator/04_SizeofOperator.project" Active="No"/>

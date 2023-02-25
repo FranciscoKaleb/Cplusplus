@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Fundamentals\Fundamentals.workspace">
+<Session Name="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/Fundamentals.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Fundamentals\Fundamentals.workspace" Name="m_workspaceName"/>
+  <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/Fundamentals.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\jyuvi\OneDrive\Desktop\C++\Cplusplus\Cplusplus\Fundamentals\24_OOPClassesAndObjects\main.cpp" Name="FileName"/>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/GlobalVariables/main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/02_InitializingVariables/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/03_PrimitiveDataTypes/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

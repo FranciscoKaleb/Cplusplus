@@ -9,8 +9,8 @@
   <Project Name="07_streams" Path="07_streams/07_streams.project" Active="No"/>
   <Project Name="08_SectionChallenge" Path="08_SectionChallenge/08_SectionChallenge.project" Active="No"/>
   <Project Name="09_SectionChallenge" Path="09_SectionChallenge/09_SectionChallenge.project" Active="No"/>
-  <Project Name="10_Write" Path="10_Write/10_Write.project" Active="No"/>
-  <Project Name="11_StringStreams" Path="11_StringStreams/11_StringStreams.project" Active="Yes"/>
+  <Project Name="10_Write" Path="10_Write/10_Write.project" Active="Yes"/>
+  <Project Name="11_StringStreams" Path="11_StringStreams/11_StringStreams.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
