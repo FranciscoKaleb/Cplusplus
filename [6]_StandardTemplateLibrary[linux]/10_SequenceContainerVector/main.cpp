@@ -11,9 +11,7 @@ void test_5();
 void test_6();
 void test_7();
 void test_8();
-void test_9();
-void test_10();
-void test_11();
+
 
 class Person{
 private:
@@ -53,6 +51,13 @@ void display(const std::vector<T> &vec)
 
 int main()
 {
+
+    // Dynamic size arrays -  can expand and contract if needed
+    // Direct element access
+    // Rapid insertion and deletion
+    // Insertion or removal of elements (linear time)
+    // Iterators available
+    s
     //test_1();
     //test_2();
     //test_3();
@@ -216,17 +221,3 @@ void test_8() //insert, useful stuff
     display(vec2);
 }
 
-void test_9()
-{
-
-}
-
-void test_10()
-{
-
-}
-
-void test_11()
-{
-
-}

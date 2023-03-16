@@ -7,11 +7,7 @@ void test_1();
 void test_2();
 void test_3();
 void test_4();
-void test_5();
-void test_6();
-void test_7();
-void test_8();
-void test_9();
+
 
 class Person
 {
@@ -53,6 +49,14 @@ void display(const T &container)
 
 int main()
 {
+    // Dynamic size
+    // Direct element access is not allowed
+    // Rapid insertion and deletion of elements anywhere in the container
+    // iterators are available
+
+    // no front and back method in forward list
+    // emplace, insert available
+
     //test_1();
     //test_2();
     //test_3();
@@ -133,14 +137,4 @@ void test_4() // forward list, back methods not available. // display_after(), e
     display(fl);
     fl.erase_after(it);
     display(fl);
-}
-
-void test_5()
-{
-
-}
-
-void test_6()
-{
-
 }

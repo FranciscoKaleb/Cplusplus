@@ -6,18 +6,18 @@
 ProjectName            :=11_StringStreams
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=/home/franciscokaleb/Documents/IO_Streams
-ProjectPath            :=/home/franciscokaleb/Documents/IO_Streams/11_StringStreams
+WorkspacePath          :=/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]
+ProjectPath            :=/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/11_StringStreams
 IntermediateDirectory  :=../build-$(ConfigurationName)/11_StringStreams
 OutDir                 :=../build-$(ConfigurationName)/11_StringStreams
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=franciscokaleb
-Date                   :=11/02/23
+Date                   :=26/02/23
 CodeLitePath           :=/home/franciscokaleb/.codelite
-LinkerName             :=/bin/x86_64-linux-gnu-g++
-SharedObjectLinkerName :=/bin/x86_64-linux-gnu-g++ -shared -fPIC
+LinkerName             :=/usr/bin/x86_64-linux-gnu-g++
+SharedObjectLinkerName :=/usr/bin/x86_64-linux-gnu-g++ -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -47,13 +47,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := /bin/x86_64-linux-gnu-ar rcu
-CXX      := /bin/x86_64-linux-gnu-g++
-CC       := /bin/x86_64-linux-gnu-gcc
-CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
+AR       := /usr/bin/x86_64-linux-gnu-ar rcu
+CXX      := /usr/bin/x86_64-linux-gnu-g++
+CC       := /usr/bin/x86_64-linux-gnu-gcc
+CXXFLAGS :=  -g -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := /bin/x86_64-linux-gnu-as
+AS       := /usr/bin/x86_64-linux-gnu-as
 
 
 ##
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 ../build-$(ConfigurationName)/11_StringStreams/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/11_StringStreams/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/franciscokaleb/Documents/IO_Streams/11_StringStreams/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/11_StringStreams/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/11_StringStreams/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/11_StringStreams/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/11_StringStreams/main.cpp$(DependSuffix) -MM main.cpp
 

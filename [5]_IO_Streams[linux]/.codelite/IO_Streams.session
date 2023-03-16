@@ -4,12 +4,14 @@
   <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/IO_Streams.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/Refresher/main.cpp" Name="FileName"/>
+      <int Value="30" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="137"/>
+        <IntVectorItem Value="24"/>
+        <IntVectorItem Value="54"/>
+        <IntVectorItem Value="77"/>
       </IntVector>
     </TabInfo>
   </TabInfoArray>

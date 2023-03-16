@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 15_AssociativeContainersMap - Debug ]----------"
-	@cd "15_AssociativeContainersMap" && "$(MAKE)" -f  "15_AssociativeContainersMap.mk"
+	@echo "----------Building project:[ 18_ContainerAdaptorsPriorityQueue - Debug ]----------"
+	@cd "18_ContainerAdaptorsPriorityQueue" && "$(MAKE)" -f  "18_ContainerAdaptorsPriorityQueue.mk"
 clean:
-	@echo "----------Cleaning project:[ 15_AssociativeContainersMap - Debug ]----------"
-	@cd "15_AssociativeContainersMap" && "$(MAKE)" -f  "15_AssociativeContainersMap.mk" clean
+	@echo "----------Cleaning project:[ 18_ContainerAdaptorsPriorityQueue - Debug ]----------"
+	@cd "18_ContainerAdaptorsPriorityQueue" && "$(MAKE)" -f  "18_ContainerAdaptorsPriorityQueue.mk" clean

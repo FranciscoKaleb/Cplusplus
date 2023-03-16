@@ -21,6 +21,9 @@
   <Project Name="18_ContainerAdaptorsPriorityQueue" Path="18_ContainerAdaptorsPriorityQueue/18_ContainerAdaptorsPriorityQueue.project" Active="No"/>
   <Project Name="12_SectionChallengeDeque" Path="12_SectionChallengeDeque/12_SectionChallengeDeque.project" Active="No"/>
   <Project Name="13_SectionChallengeList" Path="13_SectionChallengeList/13_SectionChallengeList.project" Active="No"/>
+  <Project Name="15_SectionChallengeSetMap" Path="15_SectionChallengeSetMap/15_SectionChallengeSetMap.project" Active="No"/>
+  <Project Name="Refresher" Path="../[5]_IO_Streams[linux]/Refresher/Refresher.project" Active="No"/>
+  <Project Name="17_QueueStackChallenge" Path="17_QueueStackChallenge/17_QueueStackChallenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -45,6 +48,9 @@
       <Project Name="18_ContainerAdaptorsPriorityQueue" ConfigName="Debug"/>
       <Project Name="12_SectionChallengeDeque" ConfigName="Debug"/>
       <Project Name="13_SectionChallengeList" ConfigName="Debug"/>
+      <Project Name="15_SectionChallengeSetMap" ConfigName="Debug"/>
+      <Project Name="Refresher" ConfigName="Debug"/>
+      <Project Name="17_QueueStackChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -69,6 +75,9 @@
       <Project Name="18_ContainerAdaptorsPriorityQueue" ConfigName="Release"/>
       <Project Name="12_SectionChallengeDeque" ConfigName="Release"/>
       <Project Name="13_SectionChallengeList" ConfigName="Release"/>
+      <Project Name="15_SectionChallengeSetMap" ConfigName="Release"/>
+      <Project Name="Refresher" ConfigName="Release"/>
+      <Project Name="17_QueueStackChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

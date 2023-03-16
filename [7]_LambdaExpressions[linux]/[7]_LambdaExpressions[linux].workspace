@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="[7]_LambdaExpressions[linux]" Database="" Version="10000">
+  <Project Name="01_StructureOfLambdaExpression" Path="01_StructureOfLambdaExpression/01_StructureOfLambdaExpression.project" Active="No"/>
+  <Project Name="02_StatelessLambdaExpression" Path="02_StatelessLambdaExpression/02_StatelessLambdaExpression.project" Active="No"/>
+  <Project Name="03_StatelessLambdaSample" Path="03_StatelessLambdaSample/03_StatelessLambdaSample.project" Active="No"/>
+  <Project Name="04_StatefulLambdaExpressions" Path="04_StatefulLambdaExpressions/04_StatefulLambdaExpressions.project" Active="No"/>
+  <Project Name="Accounts" Path="../[4]_SmartPointersAndExceptionHandling[linux]/Accounts/Accounts.project" Active="No"/>
+  <Project Name="05_LambdaAndSTL" Path="05_LambdaAndSTL/05_LambdaAndSTL.project" Active="No"/>
+  <Project Name="06_Enumeration" Path="06_Enumeration/06_Enumeration.project" Active="No"/>
+  <Project Name="07_UnscopedEnumeration" Path="07_UnscopedEnumeration/07_UnscopedEnumeration.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="01_StructureOfLambdaExpression" ConfigName="Debug"/>
+      <Project Name="02_StatelessLambdaExpression" ConfigName="Debug"/>
+      <Project Name="02.1_StatelessSamples" ConfigName="Debug"/>
+      <Project Name="03_StatelessLambdaSample" ConfigName="Debug"/>
+      <Project Name="04_StatefulLambdaExpressions" ConfigName="Debug"/>
+      <Project Name="Accounts" ConfigName="Debug"/>
+      <Project Name="05_LambdaAndSTL" ConfigName="Debug"/>
+      <Project Name="06_Enumeration" ConfigName="Debug"/>
+      <Project Name="07_UnscopedEnumeration" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="01_StructureOfLambdaExpression" ConfigName="Release"/>
+      <Project Name="02_StatelessLambdaExpression" ConfigName="Release"/>
+      <Project Name="02.1_StatelessSamples" ConfigName="Release"/>
+      <Project Name="03_StatelessLambdaSample" ConfigName="Release"/>
+      <Project Name="04_StatefulLambdaExpressions" ConfigName="Release"/>
+      <Project Name="Accounts" ConfigName="Release"/>
+      <Project Name="05_LambdaAndSTL" ConfigName="Release"/>
+      <Project Name="06_Enumeration" ConfigName="Release"/>
+      <Project Name="07_UnscopedEnumeration" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

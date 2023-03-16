@@ -15,29 +15,36 @@ void Example_5();
 
 int main()
 {
-	Example_5();
+	Example_3();
 }
 
 void Example_1() //writing fixed string into a file
 {
 	ifstream in_file{};
-	ofstream out_file{"Documents/IO_Streams/10_Write/sample.txt"};
-	string line
-	{
-		"Hello, my name is marti \n"
-		"do you have any business with our shop? \n"
-	};
+	ofstream out_file{};
+	string line {"kiss"};
+    string to_write {"hopia"};
+
+    in_file.open("Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/new.txt");
+    out_file.open("Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/new.txt");
 
 	if(!in_file)
 	{
 		cerr << "file open error" << endl;
 	}
-	if(!out_file)
-	{
-		cerr << "file create error" << endl;
-	}
+	//if(!out_file)
+	//{
+	//	cerr << "file create error" << endl;
+	//}
 
-	out_file << line;
+
+    while(!in_file.eof())
+    {
+        getline(in_file, line);
+        cout << line << endl;
+    }
+
+	out_file << to_write;
 
 	in_file.close();
 	out_file.close();
@@ -47,7 +54,7 @@ void Example_1() //writing fixed string into a file
 void Example_2() //wirting lines through cin
 {
 	ifstream in_file{};
-	ofstream out_file{"Documents/IO_Streams/10_Write/sample.txt"};
+	ofstream out_file{"Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/new.txt"};
 	string line{};
 	bool _continue {true};
 	char choice {};
@@ -78,14 +85,16 @@ void Example_2() //wirting lines through cin
 		}
 	}
 
+    cout << line << endl;
+
 	in_file.close();
 	out_file.close();
 }
 
 void Example_3() // copying origin to sample
 {
-	ifstream in_file{"Documents/IO_Streams/10_Write/bible.txt"};
-	ofstream out_file{"Documents/IO_Streams/10_Write/sample.txt"};
+	ifstream in_file{"Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/new.txt"};
+	fstream out_file{"Documents/git/Cplusplus/[5]_IO_Streams[linux]/10_Write/destination.txt"};
 	string line
 	{};
 
@@ -103,12 +112,13 @@ void Example_3() // copying origin to sample
 		out_file << (line+"\n");
 	}
 	cout << "copied successfully!" << endl;
+    out_file << ("cr\n");
 
 	in_file.close();
 	out_file.close();
 }
 
-void Example_4() // copying one char at a time
+void Example_4() // copying one char at a time using get and put
 {
 	ifstream in_file{"Documents/IO_Streams/10_Write/origin.txt"};
 	ofstream out_file{"Documents/IO_Streams/10_Write/sample.txt"};

@@ -77,7 +77,6 @@ void display(std::unordered_multiset<D> &s)
 
 int main()
 {
-
     //test_1();
     //test_2();
     //test_3();
@@ -121,12 +120,14 @@ void test_4() //find, count algo
 {
     std::multiset<int> s {13,1,2,3,4,5,5};
     display(s);
+
     auto it = s.find(5);
     if(it != s.end())
     {
         std::cout << "Found:" << *it << " ";
         std::cout << s.count(5) << " times" << std::endl;
     }
+
     s.clear();
     display(s);
 }

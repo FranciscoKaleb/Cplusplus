@@ -14,6 +14,12 @@ void test_9();
 
 int main()
 {
+    // Fixed size
+    // Direct element access .at()
+    // provides access to underlying raw array arr[i]
+    // Use instead of raw arrays when possible
+    // iterators available
+    // c++ 11
     test_9();
 	return 0;
 }

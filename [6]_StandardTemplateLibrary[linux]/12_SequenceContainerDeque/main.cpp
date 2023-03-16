@@ -37,6 +37,12 @@ public:
 
 int main()
 {
+
+    // Dynamic size, Can expand and contract, not stored in contiguous memory
+    // Direct element access
+    // Rapid insertion and deletion
+    // iterators available
+
     //test_1();
     //test_2();
     //test_3();

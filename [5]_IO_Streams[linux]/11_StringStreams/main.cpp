@@ -15,8 +15,8 @@ int main()
 
 	string info {"Moe 100 1234.5"};
 	istringstream iss {info};
-
 	iss >> name >> num >> total; //extract the value of iss to name, num, total respectively
+
 	cout << setw(10) << left << name
 		 << setw(5) << num
 		 << setw(10) << total << endl;
