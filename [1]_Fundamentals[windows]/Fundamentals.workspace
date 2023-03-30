@@ -4,7 +4,7 @@
   <WorkspaceParserPaths/>
   <Project Name="01_GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
   <Project Name="02_InitializingVariables" Path="02_InitializingVariables/02_InitializingVariables.project" Active="No"/>
-  <Project Name="03_PrimitiveDataTypes" Path="03_PrimitiveDataTypes/03_PrimitiveDataTypes.project" Active="Yes"/>
+  <Project Name="03_PrimitiveDataTypes" Path="03_PrimitiveDataTypes/03_PrimitiveDataTypes.project" Active="No"/>
   <Project Name="04_SizeofOperator" Path="04_SizeofOperator/04_SizeofOperator.project" Active="No"/>
   <Project Name="05_Constants" Path="05_Constants/05_Constants.project" Active="No"/>
   <Project Name="06_Arrays" Path="06_Arrays/06_Arrays.project" Active="No"/>
@@ -24,7 +24,7 @@
   <Project Name="20_CppStrings" Path="20_CppStrings/20_CppStrings.project" Active="No"/>
   <Project Name="21_Functions" Path="21_Functions/21_Functions.project" Active="No"/>
   <Project Name="22_FunctionsChallenge" Path="22_FunctionsChallenge/22_FunctionsChallenge.project" Active="No"/>
-  <Project Name="23_Pointers" Path="23_Pointers/23_Pointers.project" Active="No"/>
+  <Project Name="23_Pointers" Path="23_Pointers/23_Pointers.project" Active="Yes"/>
   <Project Name="23_Pointers_challenge" Path="23_Pointers_challenge/23_Pointers_challenge.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">

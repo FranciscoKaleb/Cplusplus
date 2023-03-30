@@ -7,7 +7,10 @@
   <Project Name="Accounts" Path="../[4]_SmartPointersAndExceptionHandling[linux]/Accounts/Accounts.project" Active="No"/>
   <Project Name="05_LambdaAndSTL" Path="05_LambdaAndSTL/05_LambdaAndSTL.project" Active="No"/>
   <Project Name="06_Enumeration" Path="06_Enumeration/06_Enumeration.project" Active="No"/>
-  <Project Name="07_UnscopedEnumeration" Path="07_UnscopedEnumeration/07_UnscopedEnumeration.project" Active="Yes"/>
+  <Project Name="07_UnscopedEnumeration" Path="07_UnscopedEnumeration/07_UnscopedEnumeration.project" Active="No"/>
+  <Project Name="08_FinalProjectPreprocessorHtmlFiles" Path="08_FinalProjectPreprocessorHtmlFiles/08_FinalProjectPreprocessorHtmlFiles.project" Active="No"/>
+  <Project Name="NPOS_sample" Path="NPOS_sample/NPOS_sample.project" Active="No"/>
+  <Project Name="PointerRefresher" Path="PointerRefresher/PointerRefresher.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -20,6 +23,9 @@
       <Project Name="05_LambdaAndSTL" ConfigName="Debug"/>
       <Project Name="06_Enumeration" ConfigName="Debug"/>
       <Project Name="07_UnscopedEnumeration" ConfigName="Debug"/>
+      <Project Name="08_FinalProjectPreprocessorHtmlFiles" ConfigName="Debug"/>
+      <Project Name="NPOS_sample" ConfigName="Debug"/>
+      <Project Name="PointerRefresher" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -32,6 +38,9 @@
       <Project Name="05_LambdaAndSTL" ConfigName="Release"/>
       <Project Name="06_Enumeration" ConfigName="Release"/>
       <Project Name="07_UnscopedEnumeration" ConfigName="Release"/>
+      <Project Name="08_FinalProjectPreprocessorHtmlFiles" ConfigName="Release"/>
+      <Project Name="NPOS_sample" ConfigName="Release"/>
+      <Project Name="PointerRefresher" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

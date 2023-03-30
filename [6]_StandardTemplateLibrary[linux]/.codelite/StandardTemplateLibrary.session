@@ -1,8 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/StandardTemplateLibrary.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="14" Name="m_selectedTab"/>
   <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/StandardTemplateLibrary.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/18_ContainerAdaptorsPriorityQueue/main.cpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[5]_IO_Streams[linux]/Refresher/main.cpp" Name="FileName"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/17_QueueStackChallenge/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/17_ContainerAdaptorsQueue/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/16_ContainerAdaptorsStack/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/15_SectionChallengeSetMap/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/15_AssociativeContainersMap/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/14_AssociativeContainersSets/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/13_SequenceContainerForwardList/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/13_SectionChallengeList/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/12_SequenceContainerDeque/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/12_SectionChallengeDeque/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/11_CharAndStringRefresher/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/10_SequenceContainerVector/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[6]_StandardTemplateLibrary[linux]/09_SequenceContainer/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>

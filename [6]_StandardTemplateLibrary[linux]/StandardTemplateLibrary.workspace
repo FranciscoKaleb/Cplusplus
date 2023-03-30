@@ -9,13 +9,13 @@
   <Project Name="07_IntroductionToIterators" Path="07_IntroductionToIterators/07_IntroductionToIterators.project" Active="No"/>
   <Project Name="08_IntroToSTLAlgorithms" Path="08_IntroToSTLAlgorithms/08_IntroToSTLAlgorithms.project" Active="No"/>
   <Project Name="08_StringToVector" Path="[9]_SequenceContainer/[9]_SequenceContainer.project" Active="No"/>
-  <Project Name="09_SequenceContainerArray" Path="09_SequenceContainer/09_SequenceContainer.project" Active="No"/>
+  <Project Name="09_SequenceContainerArray" Path="09_SequenceContainer/09_SequenceContainer.project" Active="Yes"/>
   <Project Name="10_SequenceContainerVector" Path="10_SequenceContainerVector/10_SequenceContainerVector.project" Active="No"/>
   <Project Name="11_CharAndStringRefresher" Path="11_CharAndStringRefresher/11_CharAndStringRefresher.project" Active="No"/>
   <Project Name="12_SequenceContainerDeque" Path="12_SequenceContainerDeque/12_SequenceContainerDeque.project" Active="No"/>
   <Project Name="13_SequenceContainerForwardList" Path="13_SequenceContainerForwardList/13_SequenceContainerForwardList.project" Active="No"/>
   <Project Name="14_AssociativeContainersSets" Path="14_AssociativeContainersSets/14_AssociativeContainersSets.project" Active="No"/>
-  <Project Name="15_AssociativeContainersMap" Path="15_AssociativeContainersMap/15_AssociativeContainersMap.project" Active="Yes"/>
+  <Project Name="15_AssociativeContainersMap" Path="15_AssociativeContainersMap/15_AssociativeContainersMap.project" Active="No"/>
   <Project Name="16_ContainerAdaptorsStack" Path="16_ContainerAdaptorsStack/16_ContainerAdaptorsStack.project" Active="No"/>
   <Project Name="17_ContainerAdaptorsQueue" Path="17_ContainerAdaptorsQueue/17_ContainerAdaptorsQueue.project" Active="No"/>
   <Project Name="18_ContainerAdaptorsPriorityQueue" Path="18_ContainerAdaptorsPriorityQueue/18_ContainerAdaptorsPriorityQueue.project" Active="No"/>

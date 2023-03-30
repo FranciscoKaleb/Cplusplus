@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/Fundamentals.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="21" Name="m_selectedTab"/>
   <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/Fundamentals.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -21,6 +21,146 @@
       <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/03_PrimitiveDataTypes/main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/04_SizeofOperator/main.cpp" Name="FileName"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="42" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/05_Constants/main.cpp" Name="FileName"/>
+      <int Value="38" Name="FirstVisibleLine"/>
+      <int Value="37" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/06_Arrays/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/07_Vectors/main.cpp" Name="FileName"/>
+      <int Value="81" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/08_Operators/main.cpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/09_MixedTypeExpressions/main.cpp" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/10_EqualityOperator/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/11_RelationalOperator/main.cpp" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/12_LogicalOperators/main.cpp" Name="FileName"/>
+      <int Value="66" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/13_IfStatement/main.cpp" Name="FileName"/>
+      <int Value="39" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/14_SwtichStatement/main.cpp" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/15_ConditionalOperator/main.cpp" Name="FileName"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/16_Forloop/main.cpp" Name="FileName"/>
+      <int Value="396" Name="FirstVisibleLine"/>
+      <int Value="240" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/17_WhileLoop/main.cpp" Name="FileName"/>
+      <int Value="114" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/18_ContinueBreak/main.cpp" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/19_CharactersAndStrings/main.cpp" Name="FileName"/>
+      <int Value="102" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/20_CppStrings/main.cpp" Name="FileName"/>
+      <int Value="54" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/21_Functions/AreaSolver.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/23_Pointers/main.cpp" Name="FileName"/>
+      <int Value="99" Name="FirstVisibleLine"/>
+      <int Value="110" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/home/franciscokaleb/Documents/git/Cplusplus/[1]_Fundamentals[windows]/23_Pointers_challenge/main.cpp" Name="FileName"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="36" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

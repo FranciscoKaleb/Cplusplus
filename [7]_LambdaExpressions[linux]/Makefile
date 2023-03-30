@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 07_UnscopedEnumeration - Debug ]----------"
-	@cd "07_UnscopedEnumeration" && "$(MAKE)" -f  "07_UnscopedEnumeration.mk"
+	@echo "----------Building project:[ PointerRefresher - Debug ]----------"
+	@cd "PointerRefresher" && "$(MAKE)" -f  "PointerRefresher.mk"
 clean:
-	@echo "----------Cleaning project:[ 07_UnscopedEnumeration - Debug ]----------"
-	@cd "07_UnscopedEnumeration" && "$(MAKE)" -f  "07_UnscopedEnumeration.mk" clean
+	@echo "----------Cleaning project:[ PointerRefresher - Debug ]----------"
+	@cd "PointerRefresher" && "$(MAKE)" -f  "PointerRefresher.mk" clean
